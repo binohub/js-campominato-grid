@@ -1,3 +1,5 @@
+// 
+
 // | prendo il parent nel DOM
 const gridContainer = document.getElementById('grid-container');
 
@@ -25,6 +27,14 @@ for (let i = 0 ; i < 100 ; i++){
     // | e lo aggiungo alla blacklist
     currentBlackList.push(newUniqueNum);
 }
+
+
+const btnPlay = document.getElementById('play-btn');
+
+btnPlay.addEventListener('click', function(){
+    gridContainer.innerHTML = null;
+    window.location.reload();
+})
 
 function addEventListenerWithToggle(htmlElement, classToToggle){
     htmlElement.addEventListener('click', function(){
