@@ -12,8 +12,8 @@ for (let i = 0 ; i < 100 ; i++){
     // | mi genero un nuovo numero randomico che non sia già stato estratto
     const newUniqueNum = generateUniqueRandomNumber(currentBlackList, 1, 100);
 
-    // ? il contenuto del quadrato sarà il numero randomico unico appena generato
-    newSquare.innerHTML = newUniqueNum;
+    // // ? il contenuto del quadrato sarà il numero randomico unico appena generato
+    // newSquare.innerHTML = newUniqueNum;
 
     // ! in base al valore di parità del numero randomico unico appena generato assegnerò un toggle con classi diverse
     let className = (newUniqueNum % 2 === 0) ? 'lime' : 'red';

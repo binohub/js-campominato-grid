@@ -13,7 +13,13 @@ main{
     margin-top: 3rem;
     padding: 1.5rem;
 }
-
+.titolo
+{
+    font-weight: 900;
+    font-style: oblique;
+    margin-bottom: 50px;
+    text-align: center;
+}
 div#grid-container{
     margin: 0 auto;
     width: 650px;
